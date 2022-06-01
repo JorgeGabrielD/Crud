@@ -1,0 +1,9 @@
+CREATE TABLE Usuario( 
+    id int primary key AUTO_INCREMENT,
+    nome varchar(100),
+    rg int,
+    cpf int,
+    user_data date,
+    email varchar(100),
+    telefonefixo int,
+    telefonecelular int);
